@@ -21,9 +21,7 @@ public class SingletonMain {
 	public void getUsers() throws SQLException {
 		Connection connection = EnumSingleton.INSTANCE.getConnection();
 		
-		if(connection==null) {
-			System.err.println("connection not established!");
-		}
+		
 
 		Statement stmt = connection.createStatement();
 

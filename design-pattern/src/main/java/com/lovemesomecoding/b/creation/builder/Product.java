@@ -1,4 +1,4 @@
-package com.lovemesomecoding.a.creation.builder;
+package com.lovemesomecoding.b.creation.builder;
 
 public class Product {
     private String id;
