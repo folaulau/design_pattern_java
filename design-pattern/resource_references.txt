@@ -1,0 +1,13 @@
+Resources and References
+Most used Design Patterns
+1. Singleton
+2. Factory method
+3. Builder
+4. Strategy
+5. Observer
+6. Template
+7. State
+8. Adapter
+
+* http://www.thedevpiece.com/design-patterns-that-every-developer-should-know/
+* https://medium.com/educative/the-7-most-important-software-design-patterns-d60e546afb0e
