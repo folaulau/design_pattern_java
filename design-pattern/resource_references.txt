@@ -1,13 +1,29 @@
 Resources and References
 Most used Design Patterns
+
+*** Creation ***
 1. Singleton
 2. Factory method
 3. Builder
-4. Strategy
-5. Observer
-6. Template
-7. State
-8. Adapter
+4. Prototype
+5. Abstract Factory
 
+*** Structural ***
+1. Adapter
+2. Proxy
+3. Decorator
+4. Facade
+
+
+** Behavioral *** 
+1. Strategy
+2. Observer
+3. Template Method
+4. State
+5. Iterator
+
+
+* https://refactoring.guru/design-patterns
 * http://www.thedevpiece.com/design-patterns-that-every-developer-should-know/
 * https://medium.com/educative/the-7-most-important-software-design-patterns-d60e546afb0e
+* https://blog.eduonix.com/java-programming-2/learn-design-patterns-used-spring-framework/
