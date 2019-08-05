@@ -1,6 +1,8 @@
 package com.lovemesomecoding.b.creation.factory_method;
 
 public class VehicleFactory {
+	
+	// this is the factory method
 	public static Vehicle getHehicle(VehicleType vehicleType) {
 		Vehicle vehicle = null;
 		switch (vehicleType) {
