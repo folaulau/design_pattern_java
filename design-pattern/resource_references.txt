@@ -22,6 +22,7 @@ Most used Design Patterns
 4. State
 5. Iterator
 
+* https://howtodoinjava.com/design-patterns
 * https://springframework.guru/gang-of-four-design-patterns/
 * https://refactoring.guru/design-patterns
 * http://www.thedevpiece.com/design-patterns-that-every-developer-should-know/
