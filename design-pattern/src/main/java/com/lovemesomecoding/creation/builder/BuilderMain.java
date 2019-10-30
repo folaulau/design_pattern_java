@@ -1,6 +1,6 @@
-package com.lovemesomecoding.c.creation.builder;
+package com.lovemesomecoding.creation.builder;
 
-import com.lovemesomecoding.c.creation.builder.User.UserBuilder;
+import com.lovemesomecoding.creation.builder.User.UserBuilder;
 import com.lovemesomecoding.utils.ObjectUtils;
 import com.lovemesomecoding.utils.RandomGeneratorUtils;
 

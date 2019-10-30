@@ -1,4 +1,4 @@
-package com.lovemesomecoding.c.creation.builder;
+package com.lovemesomecoding.creation.builder;
 
 // immutable class
 public class User {

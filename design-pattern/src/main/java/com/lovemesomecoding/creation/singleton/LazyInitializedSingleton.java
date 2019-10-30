@@ -1,4 +1,4 @@
-package com.lovemesomecoding.a.creation.singleton;
+package com.lovemesomecoding.creation.singleton;
 
 public class LazyInitializedSingleton {
 

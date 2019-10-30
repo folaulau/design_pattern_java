@@ -1,4 +1,4 @@
-package com.lovemesomecoding.b.creation.factory_method;
+package com.lovemesomecoding.creation.factory_method;
 
 public class FactoryMethodMain {
 	
