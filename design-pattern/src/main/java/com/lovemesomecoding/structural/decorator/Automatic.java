@@ -7,12 +7,12 @@ public class Automatic extends WeaponDecorator {
 	}
 	
 	@Override
-	public boolean fire() {
-		super.fire();
+	public boolean aimAndFire() {
+		super.aimAndFire();
 		
 		// add additional functionalities.
 		
-		System.out.println("It's an automatic, fire 10 rounds a pull!");
+		System.out.println("It's an automatic, put on silencer and fire 10 rounds a pull!");
 		
 		return true;
 	}

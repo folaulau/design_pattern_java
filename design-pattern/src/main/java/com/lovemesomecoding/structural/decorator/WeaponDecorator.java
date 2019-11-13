@@ -9,9 +9,9 @@ public abstract class WeaponDecorator implements Weapon {
 	}
 
 	@Override
-	public boolean fire() {
+	public boolean aimAndFire() {
 		// TODO Auto-generated method stub
-		return weapon.fire();
+		return weapon.aimAndFire();
 	}
 	
 }

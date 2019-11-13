@@ -40,24 +40,24 @@ public class DecoratorDemo {
 
 		Weapon ak47 = new AK47(new Gun());
 
-		System.out.println("fired ak47: " + ak47.fire());
+		System.out.println("fired ak47: " + ak47.aimAndFire());
 		System.out.println();
 
 		Weapon automatic = new Automatic(new Gun());
 
-		System.out.println("fired automatic: " + automatic.fire());
+		System.out.println("fired automatic: " + automatic.aimAndFire());
 		System.out.println();
 
 		// here a riffle can fire like a riffle and also as a automatic(or other guns)
-		Weapon riffle = new Riffle(new Automatic(new Gun()));
+		Weapon riffle = new SniperRiffle(new Automatic(new Gun()));
 
-		System.out.println("fired riffle: " + riffle.fire());
+		System.out.println("fired riffle: " + riffle.aimAndFire());
 		System.out.println();
 
-		List<Weapon> weapons = Arrays.asList(new AK47(new Gun()), new Automatic(new Gun()), new Riffle(new Gun()));
+		List<Weapon> weapons = Arrays.asList(new AK47(new Gun()), new Automatic(new Gun()), new SniperRiffle(new Gun()));
 
 		weapons.stream().forEach(weapon -> {
-			System.out.println("fire weapon: " + weapon.fire());
+			System.out.println("fire weapon: " + weapon.aimAndFire());
 			System.out.println();
 		});
 	}

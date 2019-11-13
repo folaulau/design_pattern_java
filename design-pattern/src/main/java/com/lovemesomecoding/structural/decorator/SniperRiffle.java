@@ -1,8 +1,8 @@
 package com.lovemesomecoding.structural.decorator;
 
-public class AK47 extends WeaponDecorator {
+public class SniperRiffle extends WeaponDecorator {
 
-	public AK47(Weapon weapon) {
+	public SniperRiffle(Weapon weapon) {
 		super(weapon);
 	}
 	
@@ -12,7 +12,7 @@ public class AK47 extends WeaponDecorator {
 		super.aimAndFire();
 		
 		// add additional functionalities.
-		System.out.println("It's an AK47, fire 5 rounds a pull!");
+		System.out.println("It's a SniperRiffle, put on scope and fire 1 round a pull!");
 		
 		return true;
 	}
